@@ -5,17 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/19 12:54:22 by flvejux           #+#    #+#             */
-/*   Updated: 2026/09/06 13:39:41 by flvejux          ###   ########.fr       */
+/*   Created: 2026/10/05 07:24:56 by flvejux           #+#    #+#             */
+/*   Updated: 2026/10/05 07:25:27 by flvejux          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
+#include <cctype>
 
 int main(int ac, char **av)
 {
     int i = 1;
     int y = 0;
+    
     if(ac == 1)
         std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *";
     else
