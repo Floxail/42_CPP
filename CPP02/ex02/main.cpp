@@ -6,7 +6,7 @@
 /*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 13:23:27 by flvejux           #+#    #+#             */
-/*   Updated: 2026/10/15 13:25:18 by flvejux          ###   ########.ch       */
+/*   Updated: 2026/10/15 14:46:41 by flvejux          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,4 +23,4 @@ std::cout << a << std::endl;
 std::cout << b << std::endl;
 std::cout << Fixed::max( a, b ) << std::endl;
 return 0;
-}
+}qqq
