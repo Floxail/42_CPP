@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   HumanB.hpp                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/12 09:44:59 by flvejux           #+#    #+#             */
+/*   Updated: 2026/10/12 09:44:59 by flvejux          ###   ########.ch       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef HUMANB_HPP
 #define HUMANB_HPP
 
@@ -11,6 +23,7 @@ private:
 public:
     HumanB(const std::string& name);
     void setWeapon(Weapon& weapon);
+    void dropWeapon();
     void attack() const;
 };
 

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/22 14:11:35 by flvejux           #+#    #+#             */
-/*   Updated: 2026/09/22 14:23:43 by flvejux          ###   ########.fr       */
+/*   Created: 2026/10/12 08:38:39 by flvejux           #+#    #+#             */
+/*   Updated: 2026/10/12 08:38:39 by flvejux          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ Zombie::~Zombie() {
 }
 
 void Zombie::announce(void) {
-    std::cout << name << ": BraiiiiiiinnnzzzZ..." << std::endl;
+    std::cout << "BraiiiiiiinnnzzzZ..." << std::endl;
 }
 
 void Zombie::setName(std::string name) {

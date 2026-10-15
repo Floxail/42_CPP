@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/22 14:29:52 by flvejux           #+#    #+#             */
-/*   Updated: 2026/09/22 15:29:41 by flvejux          ###   ########.fr       */
+/*   Created: 2026/10/12 08:37:46 by flvejux           #+#    #+#             */
+/*   Updated: 2026/10/12 08:37:57 by flvejux          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int main() {
 	std::cout << "-------HORDE TESTING---------" << std::endl;
 	std::cout << "_____________________________" << std::endl;
 
-	int n;
+	int n = 0;
 
 	std::cout << "How many Zombies in the horde ? ";
 	std::cin >> n;
@@ -34,7 +34,7 @@ int main() {
 
 	for (int i = 0; i < n; i++)
 	{
-		std::cout << "Zombie " << i + 1 << ": ";
+		std::cout << "Zombie " << name << i + 1 << ": ";
 		horde[i].announce();
 	}
 		

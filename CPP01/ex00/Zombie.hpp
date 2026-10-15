@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/17 12:19:56 by flvejux           #+#    #+#             */
-/*   Updated: 2026/09/21 13:03:46 by flvejux          ###   ########.fr       */
+/*   Created: 2026/10/12 07:46:36 by flvejux           #+#    #+#             */
+/*   Updated: 2026/10/12 07:49:05 by flvejux          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@ class Zombie
 {
 	public:
 		Zombie(std::string name);
-		~Zombie();
 		void announce();
-		
+		~Zombie();
+
 	private:
 		std::string name;
 };
