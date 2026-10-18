@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/22 14:06:14 by flvejux           #+#    #+#             */
-/*   Updated: 2026/09/22 14:06:14 by flvejux          ###   ########.fr       */
+/*   Created: 2026/10/12 08:28:43 by flvejux           #+#    #+#             */
+/*   Updated: 2026/10/12 08:28:43 by flvejux          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ class Zombie
 		std::string name;
 };
 
-Zombie* zombieHorde( int N, std::string name );
+Zombie* zombieHorde(int N, std::string name);
 
 #endif
