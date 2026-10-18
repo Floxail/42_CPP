@@ -6,12 +6,13 @@
 /*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 11:09:18 by flvejux           #+#    #+#             */
-/*   Updated: 2026/10/15 11:15:56 by flvejux          ###   ########.ch       */
+/*   Updated: 2026/10/18 17:31:37 by flvejux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FIXED_HPP
 # define FIXED_HPP
+#include <ostream>
 
 class Fixed {
 	public:

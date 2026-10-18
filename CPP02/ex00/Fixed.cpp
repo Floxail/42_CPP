@@ -6,7 +6,7 @@
 /*   By: flvejux <flvejux@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 11:16:15 by flvejux           #+#    #+#             */
-/*   Updated: 2026/10/15 11:21:23 by flvejux          ###   ########.ch       */
+/*   Updated: 2026/10/18 17:30:47 by flvejux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ Fixed::Fixed(const Fixed &other) {
 }
 
 Fixed::Fixed(const int n){
-	this->_value = n << _bits
+	this->_value = n << _bits;
 	std::cout << "Int constructor called" << std::endl;
 }
 
